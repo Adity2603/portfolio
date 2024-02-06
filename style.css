@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Kanit&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Concert One', sans-serif;
+
+   
+}
+body{
+    
+}
+
+.navbar{
+    height: 10vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.options{
+    height: 60%;
+   /* border: 2px solid red; */
+    width: 10%;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+.section{
+    height: 80vh;
+    /* border: 2px solid red; */
+    width: 80vw;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 14px  14px 14px 14px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+    transform: perspective(1000px) ; /* 3D effect using perspective and rotate */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.img-box{
+
+    height: 90%;
+    width: 40%;
+    background-image: url("https://lh3.googleusercontent.com/drive-viewer/AEYmBYR-r8M_JnessxigBiQXOQ7f1U5u7--fI84aqTb5uxTv4oDi_Oct5SeULLeYUSJo82RX3N-moTtbNHxfjXg9NqWsad2INg=w1366-h641");
+    /* background-size: cover;  */
+    background-position: center;
+    /* border: 2px solid blue; */
+}
+
+.name-box{
+    font-family: 'Source Code Pro', monospace;
+    /* border: 2px solid black; */
+    height: 60%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.name-box p {
+    font-family: 'Source Code Pro', monospace;
+
+    font-size: 1rem;
+    
+    
+}
+
+.icons{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width: 1100px){
+
+    .img-box{
+
+        height: 60%;
+        width: 40%;
+        background-image: url("https://lh3.googleusercontent.com/drive-viewer/AEYmBYR-r8M_JnessxigBiQXOQ7f1U5u7--fI84aqTb5uxTv4oDi_Oct5SeULLeYUSJo82RX3N-moTtbNHxfjXg9NqWsad2INg=w1366-h641");
+        background-size: cover; 
+        background-position: center;
+        /* border: 2px solid blue; */
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .section{
+        height: 100vh;
+        /* border: 2px solid red; */
+        width: 80vw;
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 14px  14px 14px 14px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+        transform: perspective(1000px) ; /* 3D effect using perspective and rotate */
+        transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .section{
+        height: 80vh;
+        /* border: 2px solid red; */
+        width: 80vw;
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 14px  14px 14px 14px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+        transform: perspective(1000px) ; /* 3D effect using perspective and rotate */
+        transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+
+    .icons{
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red; */
+        gap: 1.5rem;
+    
+    }
+    .img-box{
+
+        height: 30%;
+        width: 40%;
+        background-image: url("https://lh3.googleusercontent.com/drive-viewer/AEYmBYR-r8M_JnessxigBiQXOQ7f1U5u7--fI84aqTb5uxTv4oDi_Oct5SeULLeYUSJo82RX3N-moTtbNHxfjXg9NqWsad2INg=w1366-h641");
+        background-size: cover; 
+        background-position: center;
+        /* border: 2px solid blue; */
+    }
+    
+    
+
+}
+
+@media screen and (max-width: 500px){
+
+    .navbar{
+       
+        gap: 4%;
+    }
+
+    .section{
+
+        
+        height: 80vh;
+        /* border: 2px solid red; */
+        width: 80vw;
+        margin: auto;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 14px  14px 14px 14px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+        transform: perspective(1000px) ; /* 3D effect using perspective and rotate */
+        transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    }
+
+    .icons{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        /* border: 2px solid red; */
+        gap: 1.5rem;
+    
+    }
+    .img-box{
+
+        height: 20%;
+        width: 30%;
+        background-image: url("https://lh3.googleusercontent.com/drive-viewer/AEYmBYR-r8M_JnessxigBiQXOQ7f1U5u7--fI84aqTb5uxTv4oDi_Oct5SeULLeYUSJo82RX3N-moTtbNHxfjXg9NqWsad2INg=w1366-h641");
+        background-size: cover; 
+        background-position: center;
+        /* border: 2px solid blue; */
+    }
+
+    .name-box{
+        /* border: 2px solid black; */
+
+        margin-top: 2rem;
+        height: 50%;
+        width: 50%;
+        text-align: center;
+        
+    }
+    
+    
+
+}
+
+
+
