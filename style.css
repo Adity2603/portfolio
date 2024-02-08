@@ -52,7 +52,7 @@ body{
     height: 90%;
     width: 40%;
     background-image: url("https://lh3.googleusercontent.com/drive-viewer/AEYmBYR-r8M_JnessxigBiQXOQ7f1U5u7--fI84aqTb5uxTv4oDi_Oct5SeULLeYUSJo82RX3N-moTtbNHxfjXg9NqWsad2INg=w1366-h641");
-    /* background-size: cover;  */
+    background-size: cover; 
     background-position: center;
     /* border: 2px solid blue; */
 }
